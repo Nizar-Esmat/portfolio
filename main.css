@@ -123,6 +123,7 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  
 }
 
 .card{
@@ -220,7 +221,78 @@ transform: scale(1.1);
   color: var(--text);
  }
 
+ .skillsCart{
+  width: 25%;
+ }
+ .SkillImg {
+  font-size: 9em;
+  text-align: center;
+ }
+ .skillsCart {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+ .skillsCart:hover {
+  transform: scale(1.2);
+
+  box-shadow: rgba(49, 87, 199, 0.2) 5px 5px, rgba(49, 87, 199, 0.4) 10px 10px,
+  rgba(49, 87, 199, 0.6) 15px 15px,
+  rgba(49, 87, 199, 0.8) 20px 20px,
+  rgba(49, 87, 199, 1) 25px 25px;  
+
+}
+ .skillName{
+  text-align: center;
+ }
+
+
+ .skillsCart{
+  padding-top: 20px;
+ }
+ .bashSkillImg img{
+  width: 50%;
+  
+  
+ }
+ .bashSkillImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;  
+ }
+
+ .CSkillImg {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   }
+ .CSkillImg img{
+  width: 55%;
+  filter: grayscale(100%);
+ }
+ .skills .skillsCart{
+  display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+ }
+
+ .dgSkillImg{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 30%;
+
+ }
+.dgSkillImg img{
+  width: 100%;
+  filter: brightness(0);
+
+}
  @media (max-width:1023px) {
+  .skillsCart{
+    width: 100%;
+   }
   header{
     padding: 12px 20px;
   }
@@ -236,6 +308,7 @@ transform: scale(1.1);
   .content{
     flex-direction: column;
     align-items: center;
+
   }
  }
  
