@@ -282,9 +282,9 @@ align-items: center;
   justify-content: center;
   align-items: end;
   width: 30%;
-
  }
 .dgSkillImg img{
+  padding-top: 50px;
   width: 100%;
   filter: brightness(0);
 
